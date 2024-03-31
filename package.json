@@ -1,0 +1,33 @@
+{
+  "name": "manga-fenix",
+  "version": "1.0.0",
+  "description": "sitio web para leer mangas,novelas,manwhas entre otros impulsado por novelcool.com",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexandro521/Manga-fenix.git"
+  },
+  "keywords": [
+    "read",
+    "manga",
+    "leer",
+    "mangas",
+    "web",
+    "manga"
+  ],
+  "author": "Alexandro Mendez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexandro521/Manga-fenix/issues"
+  },
+  "homepage": "https://github.com/Alexandro521/Manga-fenix#readme",
+  "dependencies": {
+    "express": "4.19.2",
+    "mysql2": "3.9.3"
+  }
+}
